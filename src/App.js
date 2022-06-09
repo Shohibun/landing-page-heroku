@@ -1,5 +1,5 @@
 import "./App.css";
-import "./stylesheets/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
