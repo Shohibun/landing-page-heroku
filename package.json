@@ -2,14 +2,15 @@
   "name": "landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shohibun.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^4.4.1",
     "chart.js": "^3.8.0",
     "jquery": "^3.6.0",
     "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
     "react-chartjs-2": "^4.2.0",
     "react-collapsed": "^3.3.2",
     "react-dom": "^18.1.0",
@@ -30,6 +31,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
   },
   "browserslist": {
     "production": [
